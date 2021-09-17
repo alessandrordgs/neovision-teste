@@ -1,0 +1,31 @@
+.header{
+  background: radial-gradient(99% 99% at 48.51% 1%, rgba(120, 50, 147, 0.92) 10%, #4A296F 100%);
+  display: flex;
+  justify-content: space-between;
+  height: 50vh;
+  padding: 0 4rem 0 4rem;
+}
+
+.containerLogo{
+  border-radius: 0rem 0rem 1rem 1rem;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #84499ba4;
+  padding: 0 2rem 0 2rem;
+}
+
+.containerLogo img{
+  width: 10rem;
+}
+
+.nav{
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  align-items: center;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
