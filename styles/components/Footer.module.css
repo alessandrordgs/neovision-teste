@@ -1,0 +1,59 @@
+.srOnly{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.footer{
+  background-color: #FAA92E;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .contact{
+  padding-left: 6rem;
+}
+
+.footer form{
+  display: flex;
+  gap: 2rem;
+  padding-bottom: 1rem;
+}
+.footer h1{
+  font-weight: 400;
+  padding-left: 0.3rem;
+}
+
+.footer .input{
+  width: 20rem;
+  height: 2.5rem;
+  border-radius:1.2rem;
+  border: none;
+  font-size:1.1rem;
+  padding-left: 1rem;
+}
+
+.footer button {
+  width:8rem;
+  background-color: #4A296F;
+  border-radius:1rem;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.copyright{
+  background-color: #4A296F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:4rem;
+}

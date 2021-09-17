@@ -1,0 +1,36 @@
+.mainImg img:first-child{
+width: 100%;
+position: relative;
+}
+
+.mainImg{
+  display: flex;
+}
+
+.text{
+  position: absolute;
+  z-index: 10;
+  bottom: -90%;
+  color: #fff;
+  padding-left: 4rem;
+}
+.text ul li{
+  display: flex;
+  align-items: center;
+  gap:1rem;
+  margin: 0.5rem 0 0.5rem 0 ;
+  font-size: 1.2rem;
+  width: 20rem;
+}
+
+.text ul li img{
+  width: 1rem;
+  max-width: 2rem;
+}
+
+
+@media (min-width:1440px) {
+  .text{
+    bottom: -35%;
+  }
+}

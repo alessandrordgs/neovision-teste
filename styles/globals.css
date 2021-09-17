@@ -7,7 +7,13 @@ a {
   color: inherit;
   text-decoration: none;
 }
+a:hover {
+ color: #c995dda4;
+}
+ul{
+  list-style: none;
+}
 
-html, p, span, button{
+html, p, span, button, input, button{
   font-family: 'Open Sans', sans-serif;
   }

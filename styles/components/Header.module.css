@@ -1,9 +1,17 @@
 .header{
   background: radial-gradient(99% 99% at 48.51% 1%, rgba(120, 50, 147, 0.92) 10%, #4A296F 100%);
   display: flex;
-  justify-content: space-between;
-  height: 50vh;
   padding: 0 4rem 0 4rem;
+  flex-direction: column;
+  max-height: 88.5vh;
+}
+.headerNav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerNav ul{
+  padding-top: 2.6rem;
 }
 
 .containerLogo{
@@ -22,7 +30,6 @@
 
 .nav{
   display: flex;
-  list-style: none;
   gap: 2rem;
   align-items: center;
   color: #fff;
