@@ -26,7 +26,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Clone esse projeto e acesse a pasta
 
 ```bash
-$ git clone https://github.com/alessandrordgs/Portfolio.git
+$ git clone https://github.com/alessandrordgs/neovision-teste
 $ cd neovision
 ```
 
