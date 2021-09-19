@@ -6,10 +6,6 @@ Neovision é um aplicativo mobile para reconhecimento por imagem de produtos e s
 características, através de inteligência artificial.
 </p>
 
-<!-- <h1>
- <img alt="portfolio Alessandro Rodrigues" src="./.github/portfolio.png"> 
-</h1> -->
-
 
 <br>
 
@@ -33,7 +29,8 @@ $ cd neovision
 Para iniciá-lo, siga os passos abaixo:
 ```bash
 # Instalar as dependências
-$ yarn ou npm
+$ yarn ou npm install
 # Iniciar o projeto
 $ yarn dev ou npm run dev
 ```
+
