@@ -6,10 +6,7 @@ Neovision é um aplicativo mobile para reconhecimento por imagem de produtos e s
 características, através de inteligência artificial.
 </p>
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 899e3ed31ff9304e57b6ac68f4cd371a70f51cf4
 <br>
 
 ## 🧪 Tecnologias 
@@ -36,7 +33,4 @@ $ yarn ou npm install
 # Iniciar o projeto
 $ yarn dev ou npm run dev
 ```
-<<<<<<< HEAD
 
-=======
->>>>>>> 899e3ed31ff9304e57b6ac68f4cd371a70f51cf4
