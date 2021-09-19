@@ -15,6 +15,7 @@
   color: #fff;
   display: flex;
   flex-direction: column;
+  padding-top: 2rem;
 }
 
 .footer .contact{
@@ -25,6 +26,7 @@
   display: flex;
   gap: 2rem;
   padding-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .footer h1{
   font-weight: 400;
@@ -56,4 +58,14 @@
   justify-content: center;
   align-items: center;
   height:4rem;
+}
+
+@media (max-width:768px) {
+  .footer form{
+     display: flex;
+     flex-direction: column;
+  }
+  .footer .contact{
+    padding-left: 2em;
+  }
 }

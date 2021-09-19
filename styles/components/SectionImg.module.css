@@ -12,6 +12,14 @@
   font-size:1.6rem
 }
 .section h1 {
-  font-size: 4rem;
+  font-size: 3.8rem;
   line-height:3.6rem
+}
+@media (max-width:768px) {
+  .section p{
+    font-size: 1rem;
+  }
+  .section h1{
+    font-size: 2rem;
+  }
 }
