@@ -13,14 +13,10 @@ export default function Footer(){
   }
 
  async function handleForm(e){
-     e.preventDefault();
-     try {
+     e.preventDefault()
       apiConection.defaults.headers["Authorization"] = 'ale.silva1120@gmail.com'
       await apiConection.post("", FormData)
       
-     } catch (error) {
-         return window.alert("Ocorreu um erro, tente de novo")
-        }
   }
 
   return (
