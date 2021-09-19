@@ -12,10 +12,10 @@ export default function Footer(){
     email
   }
 
- async function handleForm(e){
+function handleForm(e){
      e.preventDefault()
-      apiConection.defaults.headers["Authorization"] = 'ale.silva1120@gmail.com'
-      await apiConection.post("", FormData)
+      apiConection.defaults.headers.common["Authorization"] = "ale.silva1120@gmail.com"
+      apiConection.post("", FormData)
       
   }
 

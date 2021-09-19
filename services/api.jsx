@@ -8,5 +8,5 @@ export const apiConection = axios.create({
 apiConection.interceptors.request.use((config)=>{
   console.log(config)
 
-  return
+  return config;
 })
