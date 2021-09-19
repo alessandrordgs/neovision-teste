@@ -6,11 +6,6 @@ Neovision é um aplicativo mobile para reconhecimento por imagem de produtos e s
 características, através de inteligência artificial.
 </p>
 
-<!-- <h1>
- <img alt="portfolio Alessandro Rodrigues" src="./.github/portfolio.png"> 
-</h1> -->
-
-
 <br>
 
 ## 🧪 Tecnologias 
